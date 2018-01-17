@@ -1,3 +1,4 @@
+/** */
 class Symbol {
   constructor(x, y, speed, isFirst, opacity) {
     this._x = x
@@ -15,3 +16,15 @@ class Symbol {
 
 const s = new Symbol(1, 2, 3, false, .5)
 const d = s.setRandomSymbol()
+
+
+/**
+ * p5
+ */
+function setup() {
+}
+
+function draw() {
+  background(0)
+  ellipse(50, 50, 80, 80);
+}
