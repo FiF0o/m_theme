@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "budo index.js:bundle.js --live -- -t babelify",
+    "start": "budo index.js:bundle.js --open -- -t babelify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jon Laz <jonathan.lazarini@wanadoo.fr>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.26.0",
+    "babelify": "8.0.0",
+    "budo": "10.0.4"
+  }
 }
