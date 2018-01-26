@@ -59,6 +59,7 @@ typings/
 
 .history
 dist/
+.vscode
 
 # keys
 private.key
